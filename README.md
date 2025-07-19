@@ -1,39 +1,138 @@
-# PlsQl
+# 🗄️ PlsQl - Oracle PL/SQL Practice & Learning
 
-PlsQl: Procedural Language for SQL
+[![SQL](https://img.shields.io/badge/SQL-000000?style=for-the-badge&logo=mysql&logoColor=white)](https://www.oracle.com/database/technologies/appdev/plsql.html)
+[![PL/SQL](https://img.shields.io/badge/PL--SQL-336791?style=for-the-badge&logo=oracle&logoColor=white)](https://www.oracle.com/database/technologies/appdev/plsql.html)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Status](https://img.shields.io/badge/Status-Complete-brightgreen.svg)]()
+[![Version](https://img.shields.io/badge/Version-1.0.0-blue.svg)]()
 
-## Project Overview
-This project contains a series of exercises and examples for learning and practicing PL/SQL (Procedural Language/Structured Query Language) concepts, including triggers, procedures, functions, cursors, and packages. The exercises are organized into modules, each focusing on different aspects of PL/SQL and SQL programming.
+<div align="center">
 
-## Directory Structure
-- `cours/`: PDF course materials covering SQL, PL/SQL, triggers, procedures, functions, exceptions, and more.
-- `plsql_module_1/`: Exercises focused on triggers and basic PL/SQL constructs.
-- `plsql_module_2/`: Exercises on procedures, cursors, and more advanced PL/SQL topics.
-- `plsql_module_3/`: Exercises on functions and calculations in PL/SQL.
-- `plsql_module_4/package/`: Examples of PL/SQL packages and package bodies.
+# 🗄️ PlsQl - Oracle PL/SQL Practice
 
-## Module Details
-### plsql_module_1
-- `ex00` to `ex06`: Each folder contains an `exXX.sql` file with a specific PL/SQL exercise, such as creating triggers to enforce business rules or output messages on table events.
+> A comprehensive collection of PL/SQL exercises, scripts, and learning resources for mastering Oracle SQL and PL/SQL.
 
-### plsql_module_2
-- `ex00` to `ex05`: Each folder contains an `exXX.sql` file with exercises on procedures, cursor usage, and exception handling.
+**Practice, learn, and master database programming with real-world PL/SQL examples!**
 
-### plsql_module_3
-- `ex00` to `ex02`: Each folder contains an `exXX.sql` file with exercises on PL/SQL functions, including calculations and data retrieval.
+[![GitHub stars](https://img.shields.io/github/stars/yourusername/PlsQl?style=social)](https://github.com/yourusername/PlsQl/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/yourusername/PlsQl?style=social)](https://github.com/yourusername/PlsQl/network)
+[![GitHub issues](https://img.shields.io/github/issues/yourusername/PlsQl)](https://github.com/yourusername/PlsQl/issues)
 
-### plsql_module_4/package
-- `package.sql`, `package_apple.sql`, `package_body.sql`: Examples of PL/SQL package specifications and bodies.
+</div>
 
-## Usage
-1. Open the desired `.sql` file in your Oracle SQL environment.
-2. Run the script to create or test the PL/SQL object (trigger, procedure, function, or package).
-3. Use `SET SERVEROUTPUT ON;` to view output from `DBMS_OUTPUT.PUT_LINE` statements.
+---
 
-## Notes
-- Some scripts include error handling and business logic enforcement using triggers and exceptions.
-- Errors found in the original scripts (such as typos and logic errors) have been corrected for proper execution.
-- Refer to the `cours/` directory for detailed theoretical background and explanations.
+## 📚 Table of Contents
+- [🎯 Overview](#-overview)
+- [✨ Features](#-features)
+- [🛠️ Getting Started](#️-getting-started)
+- [📁 Project Structure](#-project-structure)
+- [🛠️ Technologies Used](#️-technologies-used)
+- [🧪 Testing](#-testing)
+- [🤝 Contributing](#-contributing)
+- [📄 License](#-license)
 
-## License
-This project is for educational purposes.
+## 🎯 Overview
+PlsQl is a **learning and practice repository for Oracle SQL and PL/SQL**. It contains a wide range of exercises, scripts, and real-world examples to help you master database programming, stored procedures, triggers, and advanced SQL concepts.
+
+### 🎓 What You'll Learn
+- **SQL basics**: SELECT, INSERT, UPDATE, DELETE, joins, subqueries
+- **PL/SQL programming**: Procedures, functions, packages, triggers
+- **Cursors and exception handling**
+- **Database design and normalization**
+- **Practical exercises and solutions**
+
+## ✨ Features
+- ✅ Real-world PL/SQL exercises and solutions
+- ✅ Modular structure for easy navigation
+- ✅ Scripts for tables, views, procedures, and triggers
+- ✅ Advanced SQL queries and optimization
+- ✅ PDF course materials for reference
+
+## 🛠️ Getting Started
+### Prerequisites
+- **Oracle Database** (local or cloud)
+- **SQL*Plus** or any Oracle-compatible SQL client
+
+### Usage
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/yourusername/PlsQl.git
+   cd PlsQl
+   ```
+2. **Open scripts in your SQL client**
+3. **Run exercises and review solutions**
+4. **Explore PDF course materials for theory**
+
+## 📁 Project Structure
+```
+PlsQl/
+├── cours/                # PDF course materials
+├── plsql_module_1/       # Module 1 exercises
+├── plsql_module_2/       # Module 2 exercises
+├── plsql_module_3/       # Module 3 exercises
+├── plsql_module_4/       # Advanced packages
+├── README.md             # This file
+```
+
+## 🛠️ Technologies Used
+- ![SQL](https://img.shields.io/badge/SQL-000000?style=for-the-badge&logo=mysql&logoColor=white)
+- ![PL/SQL](https://img.shields.io/badge/PL--SQL-336791?style=for-the-badge&logo=oracle&logoColor=white)
+- ![Oracle Database](https://img.shields.io/badge/Oracle-FF0000?style=for-the-badge&logo=oracle&logoColor=white)
+
+## 🧪 Testing
+- Test scripts using SQL*Plus or your preferred Oracle SQL client
+- Compare your results with provided solutions
+
+## 🤝 Contributing
+Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
+
+### How to Contribute
+1. **Fork the repository**
+   ```bash
+   git clone https://github.com/yourusername/PlsQl.git
+   ```
+2. **Create your feature branch**
+   ```bash
+   git checkout -b feature/AmazingFeature
+   ```
+3. **Make your changes**
+   - Follow the existing code style
+   - Add new exercises or solutions
+   - Update documentation as needed
+4. **Commit your changes**
+   ```bash
+   git commit -m 'Add some AmazingFeature'
+   ```
+5. **Push to the branch**
+   ```bash
+   git push origin feature/AmazingFeature
+   ```
+6. **Open a Pull Request**
+
+### Contribution Guidelines
+- Follow the existing code style and conventions
+- Add tests or solutions for new exercises
+- Update documentation as needed
+
+## 📄 License
+This project is part of the 42 School curriculum. The code is written for educational purposes.
+
+---
+
+<div align="center">
+
+**Made with ❤️ and lots of ☕**
+
+*Practice, learn, and master database programming with real-world PL/SQL examples!*
+
+[![GitHub stars](https://img.shields.io/github/stars/yourusername/PlsQl?style=social)](https://github.com/yourusername/PlsQl/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/yourusername/PlsQl?style=social)](https://github.com/yourusername/PlsQl/network)
+[![GitHub issues](https://img.shields.io/github/issues/yourusername/PlsQl)](https://github.com/yourusername/PlsQl/issues)
+
+**Author**: [Your Name]  
+**School**: 42 School  
+**Project**: PlsQl  
+**Last updated**: December 2024
+
+</div>
